@@ -1,0 +1,48 @@
+{
+    "quiz_1" : [
+        {
+            "id" : 1,
+            "type" : "multiple-choice",
+            "question" : "What is does JSON stand for?",
+            "choices" : ["JavaScript Option Notation" , "JavaScript Object Notation" , "Java Object Notion" , "Python Object Notation"],
+            "correct_answer" : "JavaScript Object Notation",
+            "explanation" : "JSON stands for JavaScript Object Notation and it's a text-based format for storing data."
+        },
+        {
+            "id" : 2,
+            "type" : "multiple-choice",
+            "question" : "Which of these is a programming language?",
+            "choices" : ["Java" , "Eggo" , "Lenovo" , "Apple"],
+            "correct_answer" : "Java",
+            "explanation" : "Java is a programming language."
+        },
+        {
+            "id" : 3,
+            "type" : "narrative",
+            "question" : "What is a place for developers to store, share, and collaborate on code?",
+            "correct_answer" : "GitHub",
+            "explanation" : "GitHub is a platform that developers use to store, share, and collaborate on code"
+        },
+        {
+            "id" : 4,
+            "type" : "image-selection",
+            "question" : "Which one of these images show the logo of Java?",
+            "images" : [
+                {"url" : "github_logo.png" , "img_name" : "GitHub logo" , "correct_choice" : false},
+                {"url" : "python_logo.png" , "img_name" : "Python logo" , "correct_choice" : false},
+                {"url" : "visualstudiocode_logo.png" , "img_name" : "Visual Studio Code logo" , "correct_choice" : false},
+                {"url" : "java_logo.png" , "img_name" : "Java logo" , "correct_choice" : true}
+            ],
+            "correct_answer" : "Java logo",
+            "explanation" : "The Java logo looks like a cup with steam coming off of it."
+        },
+        {
+            "id" : 5,
+            "type" : "multiple-choice",
+            "question" : "What is the correct tag for making an ordered list in HTML?",
+            "choices" : ["<ol>" , "<ul>" , "<li>" , "<p>"],
+            "correct_answer" : "<ol>",
+            "explanation" : "<ol> is the tag used to make an ordered list in HTML."
+        }
+    ]
+}            
