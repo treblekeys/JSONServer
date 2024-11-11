@@ -1,3 +1,4 @@
+
 {
     "quiz_1" : [
         {
@@ -43,6 +44,51 @@
             "choices" : ["<ol>" , "<ul>" , "<li>" , "<p>"],
             "correct_answer" : "<ol>",
             "explanation" : "<ol> is the tag used to make an ordered list in HTML."
+        }
+    ],
+    "quiz_2" : [
+        {
+            "id" : 1,
+            "type" : "multiple-choice",
+            "question" : "What is does HTML stand for?",
+            "choices" : ["Hypotext Markup Language" , "Hypertext Markup Language" , "Hypertext Marker Language" , "Hypnosis Massage Liquid"],
+            "correct_answer" : "Hypertext Marker Language",
+            "explanation" : "HTML stands for Hypertext Markup Language"
+        },
+        {
+            "id" : 2,
+            "type" : "image-selection",
+            "question" : "Which image represents GitHub?",
+            "images" : [
+                {"url" : "github_logo.png" , "img_name" : "GitHub logo" , "correct_choice" : true},
+                {"url" : "python_logo.png" , "img_name" : "Python logo" , "correct_choice" : false},
+                {"url" : "visualstudiocode_logo.png" , "img_name" : "Visual Studio Code logo" , "correct_choice" : false},
+                {"url" : "java_logo.png" , "img_name" : "Java logo" , "correct_choice" : false}
+            ],
+            "correct_answer" : "GitHub logo",
+            "explanation" : "The GitHub logo looks like a black cat in a white background."
+        },
+        {
+            "id" : 3,
+            "type" : "multiple-choice",
+            "question" : "Which HTML tag allows you to put JavaScript code into your HTML file?",
+            "choices" : ["<body>" , "<script" , "<span>" , "<h3>"],
+            "correct_answer" : "<script>",
+            "explanation" : "The <script> tag allows you to enter in JavaScript code in your HTML file."
+        },
+        {
+            "id" : 4,
+            "type" : "narrative",
+            "question" : "What does CSS stand for? Make sure to capitalize the first letters of each word.",
+            "correct_answer" : "Cascading Style Sheet",
+            "explanation" : "CSS stands for Cascading Style Sheet and its used to style documents written in HTML."
+        },
+        {
+            "id" : 5,
+            "type" : "narrative",
+            "question" : "What is a JavaScript library used to create reusable webpage templates?",
+            "correct_answer" : "Handlebars",
+            "explanation" : "Handlebars is a JavaScript library that is used to create webpage templates."
         }
     ]
 }            
