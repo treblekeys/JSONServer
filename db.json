@@ -52,7 +52,7 @@
             "type" : "multiple-choice",
             "question" : "What is does HTML stand for?",
             "choices" : ["Hypotext Markup Language" , "Hypertext Markup Language" , "Hypertext Marker Language" , "Hypnosis Massage Liquid"],
-            "correct_answer" : "Hypertext Marker Language",
+            "correct_answer" : "Hypertext Markup Language",
             "explanation" : "HTML stands for Hypertext Markup Language"
         },
         {
