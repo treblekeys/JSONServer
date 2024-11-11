@@ -72,7 +72,7 @@
             "id" : 3,
             "type" : "multiple-choice",
             "question" : "Which HTML tag allows you to put JavaScript code into your HTML file?",
-            "choices" : ["<body>" , "<script" , "<span>" , "<h3>"],
+            "choices" : ["<body>" , "<script>" , "<span>" , "<h3>"],
             "correct_answer" : "<script>",
             "explanation" : "The <script> tag allows you to enter in JavaScript code in your HTML file."
         },
